@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.links{
+    display: flex;
+    justify-content: space-bee;
+    flex-direction: column;
+    align-items: center;
+}
+.icone{
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: groove 3px #BB99DD;
+    padding: 5px;
+}
+.caption{
+    margin-bottom: 30px;
+    color: #BB99DD;
+}
+
+.icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkinsta{
+    padding: 10px 106px;
+    border-radius: 3px;
+    border: 2px solid #BB99DD;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #BB99DD;
+
+}
+.linktwitter{
+    padding: 10px 121px;
+    border-radius: 3px;
+    border: 2px solid #BB99DD;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #BB99DD;
+}
+.linkgithub{
+    padding: 10px 121px;
+    border-radius: 3px;
+    border: 2px solid #BB99DD;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #BB99DD;
+}
+.linklinkedin{
+    padding: 10px 117px;
+    border-radius: 3px;
+    border: 2px solid #BB99DD;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #BB99DD;
+}
+.linkinsta:hover{
+    color: darkorchid;
+}
+.linktwitter:hover{
+    color: darkorchid;
+}
+.linkgithub:hover{
+    color: darkorchid;
+}
+.linklinkedin:hover{
+    color: darkorchid;
+}
+#insta{
+    margin-left: 20px;
+}
+#twitter{
+    margin-left: 20px;
+}
+#github{
+    margin-left: 20px;
+}
+#linkedin{
+    margin-left: 20px;
+}
